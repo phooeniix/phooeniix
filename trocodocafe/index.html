@@ -14,12 +14,15 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<link href="css/style.css" rel="stylesheet" type="text/css"  media="all" />
+	<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"  media="all" />
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
 	<script type="text/javascript" src="js/menu.js"></script> 
 	<style type="text/css">
 		.about-info p{
 			text-align: justify;
+		    line-height: 2.0em;
+
 		}
 		.copy-right{
 			margin-top: 40px;
@@ -38,6 +41,58 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		}
 		.noPadding{
 			padding: 0px;
+		}
+		section.empresa_desc .icon.major.accent2.missao{background: #7fcdb8;}
+		section.empresa_desc .icon.major.accent2.visao{background: #90b0ba;}
+		section.empresa_desc .icon.major.accent2.valores{background: #e89980;}
+
+		section.empresa_desc{
+			text-align: center;
+		}
+		section.empresa_desc .icon.major.accent2 {
+		    color: #ffffff;
+		}
+		section.empresa_desc .icon.major {
+		    background: #666;
+		    border-radius: 100%;
+		    color: #ffffff;
+		    cursor: default;
+		    display: inline-block;
+		    height: 5.5em;
+		    line-height: 5.5em;
+		    margin: 0 0 2em 0;
+		    width: 5.5em;
+		}
+		.icon:before {
+		    -moz-osx-font-smoothing: grayscale;
+		    -webkit-font-smoothing: antialiased;
+		    font-family: FontAwesome;
+		    font-style: normal;
+		    font-weight: normal;
+		    text-transform: none !important;
+		}
+		.icon.major:before {
+		    font-size: 2.5em;
+		}
+
+		section.empresa_desc .icon {
+		    text-decoration: none;
+		    border-bottom: none;
+		    position: relative;
+		}
+		section.empresa_desc h3 {
+		    font-size: 1.75em;
+		    line-height: 1.5em;
+		    letter-spacing: -0.025em;
+		}
+		section.empresa_desc h3{
+		    color: #646464;
+		    font-weight: 300;
+		    line-height: 1em;
+		    margin: 0 0 0.5em 0;
+		}
+		section.empresa_desc p {
+		    margin: 0 0 2em 0;
 		}
 	</style>
 	</head>
@@ -71,22 +126,25 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 		 <div class="wrap">
 		   <div class="content">
 				   <div class="about-info">
-					   	<div class='col-md-7 col-xs-12 col-sm-7'>
+					   	<div class='col-md-8 col-xs-12 col-sm-8'>
 					         <h2>Nossa empresa</h2>
 					         <br>
 							  <p>A plataforma Troco do Café nasceu da ideia de reunir em um só lugar produtores, torrefadoras, coffee lovers, fornecedores de métodos de preparo e aqueles interessados em se adentrar no mundo dos cafés especiais.</p>
 							  <p>O Troco do café é um espaço democrático e colaborativo onde cada um pode vender e comprar produtos de que precisa, encontrar informações, vídeos e fazer circular aquela máquina usada, o moinho que foi substituído por um mais moderno ou mais prático, novidades que trouxe de uma viagem aos confins do Brasil ou do mundo.</p>
 					   	</div>
-					   	<div class="col-md-5 col-xs-12 col-sm-5">
+					   	<div class="col-md-4 col-xs-12 col-sm-4">
 								<img src="images/night.jpg" alt="" class='img-responsive img_canto_arredondado'>
 					   	</div>
 				 	</div>
 				 	<div class="clearfix"></div>
+				 	<br>
+				 	<br>
+				 	<br>
 				   <div class="about-info">
-					   	<div class='col-md-5 col-sm-5 col-xs-12'>
+					   	<div class='col-md-4 col-sm-4 col-xs-12'>
 								<img src="images/aftnun.jpg" title="" alt="" class="img-responsive img_canto_arredondado"/>
 					   	</div>
-					   	<div class='col-md-7 col-sm-7 col-xs-12'>
+					   	<div class='col-md-8 col-sm-8 col-xs-12'>
 					   		<h2>Quem somos</h2>
 					   		<br>
 					   		<p>Somos uma empresa cujo DNA é a colaboração, só assim o Troco do Café saiu do papel, essa foi a nossa mola propulsora e o motivo do nosso sucesso.</p>
@@ -97,53 +155,37 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 				   <br>
 				   <br>
 				   <br>
-				   <div class="col-md-4 col-sm-4 col-xs-4">
-						<div class="grid_img">
-							<img src="images/slider-1.jpg" alt="">
-						</div>
-						<div class="price_desc">
-							<div class="price_text"><h6><span>Missão</span></h6></div> 
-							<div class="clear"></div>	
-								<p>Melhorar o acesso ao bom café produzido no nosso país em toda sua experiência, seja na escolha do grão a ser consumido, no preparo até ser servido nas casas e cafeterias.</p>
-						</div>
-				   </div>	
-				   <div class="col-md-4 col-sm-4 col-xs-4">
-				   		<div class="grid_img">
-							<img src="images/slider-2.jpg" alt="">
-						</div>
-						<div class="price_desc">
-							<div class="price_text"><h6><span>Visão</span></h6></div> 
-							<div class="clear"></div>
-								<p>Ser a maior plataforma digital de cafés sendo reconhecida principalmente pelo bom serviço prestado a sociedade: aos produtores; aos baristas e; aos brasileiros.</p>
-						</div>
-				   </div>	
-				   <div class="col-md-4 col-sm-4 col-xs-4">
-				   		<div class="grid_img">
-							<img src="images/slider-3.jpg" alt="">
-						</div>
-						<div class="price_desc">
-							<div class="price_text"><h6><span>Valores</span></h6></div> 
-							<div class="clear"></div>	
-							<div class="col-md-6 col-xs-6 col-sm-6 noPadding"> 
-								<p>
-								- Colaboração<br>
-								- Ética<br/>
-								- Saúde e bem estar<br/>
-								</p>
-							</div>
-							<div class="col-md-6 col-xs-6 col-sm-6 noPadding"> 
-								<p> 
-								- Overdelivering</br>
-								- Fair Trade</br>
-								- Excelência</br>
-								</p>
-							<br>				                    
-							</div>
-							<div class="clear"></div>					                    
-						</div>
+				   <br>
+				   <section class='col-md-4 col-sm-4 col-xs-4 empresa_desc'>
+						<span class="icon major fa-globe accent2 missao"></span>
+						<h3>Missão</h3>
+						<p>Melhorar o acesso ao bom café produzido no nosso país em toda sua experiência, seja na escolha do grão a ser consumido, no preparo até ser servido nas casas e cafeterias.</p>
+					</section>
 
-				   </div>	
+					<section class='col-md-4 col-sm-4 col-xs-4 empresa_desc'>
+						<span class="icon major fa-line-chart accent2 visao"></span>
+						<h3>Visão</h3>
+						<p>Ser a maior plataforma digital de cafés sendo reconhecida principalmente pelo bom serviço prestado a sociedade: aos produtores; aos baristas e; aos brasileiros.</p>
+					</section>
+
+					<section class='col-md-4 col-sm-4 col-xs-4 empresa_desc'>
+						<span class="icon major fa-thumbs-o-up accent2 valores"></span>
+						<h3>Valores</h3>
+						<p>
+						Colaboração<br>
+						Ética<br/>
+						Saúde e bem estar<br/>
+						Overdelivering</br>
+						Fair Trade</br>
+						Excelência</br>
+						</p>
+					</section>
 				   <div class="clearfix"></div>
+				   
+				   <br>
+				   <br>
+				   <br>
+				   <br>
 				   
 				   <div class="about-info">
 				   		<div class='col-md-5 col-sm-5 col-xs-12'>
